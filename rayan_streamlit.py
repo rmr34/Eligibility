@@ -749,6 +749,6 @@ if submit_button:
     student_status = "meets the eligibility criteria" if prediction[0] == 1 else "doesn't meet the eligibility criteria"
 
     # Display the result in Streamlit
-    st.write(f"Upon evaluating the application, the system has concluded that the student {full_name} is {student_status} for the scholarship.")
+    st.write(f"Upon evaluating the application, the system has concluded that the student {full_name} {student_status} for the scholarship.")
 
         
